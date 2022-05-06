@@ -1102,7 +1102,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &340053678
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2627,10 +2627,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e9dfc6be3abd8b84bb2bbb0522ef8224, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  additionNums: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a000000
-  additionNumsForAdv: 00000000010000000200000003000000040000000500000006000000
-  declarationNums1: 0700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000
-  declarationNums2: 00000000010000000200000003000000040000000500000006000000
   ekaLuku: 0
   tokaLuku: 0
   kolmasLuku: 0

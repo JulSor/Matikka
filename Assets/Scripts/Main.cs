@@ -222,30 +222,29 @@ public class Main : MonoBehaviour
     }
     public IEnumerator MuutaTahdenKokoa()  //todo muuta forloopiksi
     {
+        // star.transform.localScale = new Vector3(0.2f, 0.2f, 0.2f);
+        // yield return new WaitForSeconds(0.05f);
+        // star.transform.localScale = new Vector3(0.4f, 0.4f, 0.4f);
+        // yield return new WaitForSeconds(0.05f);
+        // star.transform.localScale = new Vector3(0.6f, 0.6f, 0.6f);
+        // yield return new WaitForSeconds(0.05f);
+        // star.transform.localScale = new Vector3(0.8f, 0.8f, 0.8f);
+        // yield return new WaitForSeconds(0.05f);
+        // star.transform.localScale = new Vector3(1f, 1f, 1f);
+        // yield return new WaitForSeconds(0.05f);
+        // star.transform.localScale = new Vector3(1.2f, 1.2f, 1.2f);
+        // yield return new WaitForSeconds(0.15f);
+        // star.SetActive(false);
+
         star.transform.localScale = new Vector3(0.2f, 0.2f, 0.2f);
         yield return new WaitForSeconds(0.05f);
-        star.transform.localScale = new Vector3(0.4f, 0.4f, 0.4f);
-        yield return new WaitForSeconds(0.05f);
-        star.transform.localScale = new Vector3(0.6f, 0.6f, 0.6f);
-        yield return new WaitForSeconds(0.05f);
-        star.transform.localScale = new Vector3(0.8f, 0.8f, 0.8f);
-        yield return new WaitForSeconds(0.05f);
-        star.transform.localScale = new Vector3(1f, 1f, 1f);
-        yield return new WaitForSeconds(0.05f);
-        star.transform.localScale = new Vector3(1.2f, 1.2f, 1.2f);
-        yield return new WaitForSeconds(0.15f);
+        for (int i = 0; i < 7; i++) {
+            star.transform.localScale += new Vector3(+0.2f, +0.2f, +0.2f);
+            yield return new WaitForSeconds(0.05f);
+        }
         star.SetActive(false);
     }
     public IEnumerator MuutaTahtilaskurinKokoa()  //todo muuta forloopiksi
-    {
-        yield return new WaitForSeconds(0.5f);
-        starCounter.transform.localScale = new Vector3(1.5f, 1.5f, 1.5f);
-        yield return new WaitForSeconds(0.05f);
-        starCounter.transform.localScale = new Vector3(1.25f, 1.25f, 1.25f);
-        yield return new WaitForSeconds(0.05f);
-        starCounter.transform.localScale = new Vector3(1f, 1f, 1f);
-    }
-    public IEnumerator MuutaTahtilaskurinKokoaNopeasti()  //todo muuta forloopiksi
     {
         yield return new WaitForSeconds(0.5f);
         starCounter.transform.localScale = new Vector3(1.5f, 1.5f, 1.5f);
