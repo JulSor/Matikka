@@ -1,4 +1,4 @@
-Selaimessa toimivaa versiota voi kokeilla https://sharemygame.com/@Julbbi/matikka
+Selaimessa toimivaa versiota voi kokeilla PC:llä https://sharemygame.com/@Julbbi/matikka
 
 Selainversiossa ei toimi pisteiden tallennus.
 
